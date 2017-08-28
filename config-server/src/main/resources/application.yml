@@ -13,10 +13,10 @@ spring:
           #username:
           #password:
   rabbitmq:
-    host: 192.168.0.104
+    host: 192.168.0.111
     port: 5672
-    username: guest
-    password: guest
+    username: root
+    password: 123456
 
 eureka:
   client:
