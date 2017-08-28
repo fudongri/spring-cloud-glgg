@@ -1,5 +1,5 @@
 server:
-  port: 80
+  port: 8888
 
 spring:
   application:
@@ -13,7 +13,7 @@ spring:
           #username:
           #password:
   rabbitmq:
-    host: 192.168.0.111
+    host: 192.168.1.111
     port: 5672
     username: root
     password: 123456
