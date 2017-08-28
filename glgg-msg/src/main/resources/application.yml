@@ -1,3 +1,9 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 spring:
   application:
     name: glgg-msg
@@ -18,8 +24,6 @@ spring:
     username: xxx@163.com
     password: fdr1990 #163客户端授权码
     default-encoding: utf-8
-  zipkin:
-    base-url: http://localhost:9777
   sleuth:
     sampler:
       percentage: 1.0
@@ -27,9 +31,9 @@ mail:
   from:
     address: xxx@163.com
 
-
 server:
   port: 6002
+
 
 
 
