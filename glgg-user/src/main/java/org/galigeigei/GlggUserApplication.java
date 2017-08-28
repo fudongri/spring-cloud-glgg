@@ -13,15 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class GlggUserApplication {
 
-	@Value("${str.val}")
-	private String str;
-
-	@RequestMapping("/hello")
-	public String hello(){
-		return str;
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(GlggUserApplication.class, args);
 	}
+
 }
